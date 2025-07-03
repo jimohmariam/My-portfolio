@@ -8,7 +8,7 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
+
 
 Simply visit [https://jimohmariam.github.io/My-portfolio/](https://jimohmariam.github.io/My-portfolio/) and start prompting.
 
