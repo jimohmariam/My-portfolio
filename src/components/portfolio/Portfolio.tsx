@@ -24,7 +24,7 @@ const Portfolio = () => {
       title: "Konga-like eCommerce Platform",
       description:
         "A comprehensive multi-category shopping site inspired by Konga. Includes advanced cart functionality, search capabilities, and detailed product listings.",
-      image: "https://i.postimg.cc/5y9X2Fvc/Screenshot-2025-07-03-at-10-43-32.png",
+      image: "".
       technologies: ["React", "Node.js", "MongoDB", "Express", "Redux"],
       status: "In Progress",
       highlights: [
