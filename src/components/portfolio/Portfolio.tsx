@@ -157,9 +157,13 @@ const Portfolio = () => {
                 </a>
               </Button>
               <Button variant="ghost" asChild>
-                   <a href="/JIMOH MARIAM TEMILEYI.pdf" download="Jimoh_Mariam_Resume.pdf">
-                      Download Resume
-                    </a>
+                   <a
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  download="Jimoh-Mariam-Resume.pdf"
+>
+  Download Resume
+</a>
+
                 </Button>
 
             </div>

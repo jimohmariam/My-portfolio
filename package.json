@@ -3,13 +3,22 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jimohmariam.github.io/My-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "update-browsers": "npx update-browserslist-db@latest --force",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "browserslist": [
+    "defaults",
+    "last 2 versions",
+    "not dead"
+  ],
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@hookform/resolvers": "^3.9.0",
@@ -70,9 +79,11 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.20",
+    "caniuse-lite": "^1.0.30001726",
     "eslint": "^9.9.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.11",
