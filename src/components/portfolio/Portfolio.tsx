@@ -8,7 +8,7 @@ const Portfolio = () => {
       title: "Organic Product eCommerce Website",
       description:
         "A responsive platform where users can purchase organic products. Features include product catalog, shopping cart, user authentication, and payment integration.",
-         image: "https://i.postimg.cc/hjLdJBdv/Screenshot-2025-07-02-at-12-57-14.png",
+      image: "https://i.postimg.cc/hjLdJBdv/Screenshot-2025-07-02-at-12-57-14.png",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
       status: "Completed",
       highlights: [
@@ -24,7 +24,7 @@ const Portfolio = () => {
       title: "Konga-like eCommerce Platform",
       description:
         "A comprehensive multi-category shopping site inspired by Konga. Includes advanced cart functionality, search capabilities, and detailed product listings.",
-      image: "".
+      image: "",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Redux"],
       status: "In Progress",
       highlights: [
@@ -157,15 +157,13 @@ const Portfolio = () => {
                 </a>
               </Button>
               <Button variant="ghost" asChild>
-                   <a
-  href={`${import.meta.env.BASE_URL}resume.pdf`}
-  download="Jimoh-Mariam-Resume.pdf"
->
-  Download Resume
-</a>
-
-                </Button>
-
+                <a
+                  href={`${import.meta.env.BASE_URL}resume.pdf`}
+                  download="Jimoh-Mariam-Resume.pdf"
+                >
+                  Download Resume
+                </a>
+              </Button>
             </div>
           </div>
         </div>
