@@ -65,7 +65,7 @@ const Footer = () => {
             <div className="space-y-3 mb-4">
               <div className="text-sm">
                 <div className="text-muted-foreground">Email</div>
-                <div>mariam.temileyi@email.com</div>
+                <div>jimohmariam929@gmail.com</div>
               </div>
               <div className="text-sm">
                 <div className="text-muted-foreground">Location</div>

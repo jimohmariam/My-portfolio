@@ -1,14 +1,14 @@
 // vite.config.ts
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import path from "path"; // 👈 Import 'path' for aliasing
+import path from "path";
 
 export default defineConfig({
-  base: "/My-portfolio/", // ✅ Important for GitHub Pages
+  base: "/My-portfolio/",
   plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"), // 👈 Add this alias
+      "@": path.resolve(__dirname, "./src"),
     },
   },
 });
