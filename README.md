@@ -2,14 +2,16 @@
 
 ## Project info
 
-**URL**: http://localhost:5173/My-portfolio/
+**URL**: https://jimohmariam.github.io/My-portfolio/
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the http://localhost:5173/My-portfolio/and start prompting.
+Simply visit the https://jimohmariam.github.io/My-portfolio/
+
 
 Changes made via Lovable will be committed automatically to this repo.
 
