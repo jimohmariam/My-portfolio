@@ -8,7 +8,7 @@ const Portfolio = () => {
       title: "Organic Product eCommerce Website",
       description:
         "A responsive platform where users can purchase organic products. Features include product catalog, shopping cart, user authentication, and payment integration.",
-      image: "https://i.postimg.cc/MKfTY3Wn/Screenshot-2025-07-02-at-12-57-14.png",
+       image: "https://i.postimg.cc/5y9X2Fvc/Screenshot-2025-07-03-at-10-43-32.png",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
       status: "Completed",
       highlights: [
