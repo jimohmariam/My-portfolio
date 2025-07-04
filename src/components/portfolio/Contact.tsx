@@ -214,7 +214,7 @@ const Contact = () => {
                 <span className="font-medium text-primary">Available for new projects</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                Currently accepting new client work and collaborations for 2024.
+                Currently accepting new client work and collaborations.
               </p>
             </div>
           </div>
